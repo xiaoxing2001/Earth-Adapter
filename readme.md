@@ -1,1 +1,1 @@
-# Earth_adapter Bridge the Geospatial Domain Gaps  with Mixture of Frequency Adaptation
+# Earth Adapter: Bridge the Geospatial Domain Gaps with Mixture of Frequency Adaptation
