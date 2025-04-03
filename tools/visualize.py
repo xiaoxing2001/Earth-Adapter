@@ -9,11 +9,11 @@ import sys
 sys.path.append(os.curdir)
 
 from mmengine.config import Config
-from rein.utils import get_classes, get_palette
+from earth_adapter.utils import get_classes, get_palette
 from mmengine.runner.checkpoint import _load_checkpoint
-from rein.utils import init_model
+from earth_adapter.utils import init_model
 from mmseg.apis import inference_model
-import rein
+import earth_adapter
 import tqdm
 import mmengine
 import torch

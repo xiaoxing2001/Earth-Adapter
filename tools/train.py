@@ -5,7 +5,7 @@ import sys
 sys.path.append(os.curdir)
 
 
-import rein
+import earth_adapter
 import argparse
 import logging
 import os.path as osp

@@ -4,11 +4,11 @@ import cv2
 from mmengine.model.utils import revert_sync_batchnorm
 
 from mmseg.apis import inference_model, init_model
-from rein.utils import get_classes, get_palette
+from earth_adapter.utils import get_classes, get_palette
 import numpy as np
 import torch
 import tqdm
-import rein
+import earth_adapter
 
 classes = get_classes("cityscapes")
 palette = get_palette("cityscapes")
